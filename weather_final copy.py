@@ -40,6 +40,7 @@ def getWeather():
         'div', class_='CurrentConditions--precipValue--1RgXi').text
 
     master.after(60000, getWeather)
+
     master.update()
 
 
