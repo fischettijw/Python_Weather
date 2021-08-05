@@ -5,7 +5,6 @@ from itertools import zip_longest
 import os
 os.system('cls')
 
-print_config(True)
 
 a = ('a', 'b', 'c', 'd', 'e')
 b = (1, 2, 3, 4, 5)
